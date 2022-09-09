@@ -1,5 +1,67 @@
 header{
     width: 100%;
-    height: 30px;
-    background-color: #0B2B6A;
+    height: 80px;
+    background-color: #29687C;
+}
+body{
+    background-color: #458F67;
+}
+.body div .logo{
+    height: 23rem;
+    width: 26rem;
+    position: absolute;
+    margin-top: -50rem;
+    margin-left: 30rem;
+}
+header a{
+    margin-top: 1.3rem;
+    color: white;
+    text-decoration: none;
+
+    padding: 0.7rem;
+    position: absolute;
+    border-radius: 8px;
+    border: 1px white solid;
+}
+.banner{
+    margin-left: 3rem;
+    width: 5rem;
+    height: 4.3rem;
+}
+.body img{
+    width: 100%;
+}
+.primer{
+    margin-left: 60rem;
+}
+.segundo{
+    margin-left: 65rem;
+}
+.start{
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 0.5rem 1rem 0rem 1rem;
+    border: 2px solid white;
+    margin-left: 39rem;
+    margin-top: -23rem;
+    position: absolute;
+    color: white;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 6px;
+}
+.Integrantes{
+    padding: 3rem 3rem 3rem 0rem;
+
+    display: flex;
+    flex-direction: row;
+}
+.Integrantes div{
+    color: white;
+    border-radius: 10px;
+    width: 30rem;
+    margin-left: 3rem;
+    border: 1px solid white;
+
+    padding: 2rem;
 }
