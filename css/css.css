@@ -32,7 +32,7 @@ header a{
     width: 100%;
 }
 .primer{
-    margin-left: 60rem;
+    margin-left: 59rem;
 }
 .segundo{
     margin-left: 65rem;
@@ -40,7 +40,7 @@ header a{
 .start{
     font-size: 1.5rem;
     text-decoration: none;
-    padding: 0.5rem 1rem 0rem 1rem;
+    padding: 0.6rem 0.5rem 0rem 0.8rem;
     border: 2px solid white;
     margin-left: 39rem;
     margin-top: -23rem;
@@ -49,6 +49,7 @@ header a{
     width: 8rem;
     height: 3rem;
     border-radius: 6px;
+    cursor: pointer;
 }
 .Integrantes{
     padding: 3rem 3rem 3rem 0rem;
@@ -64,4 +65,279 @@ header a{
     border: 1px solid white;
 
     padding: 2rem;
+}
+/*PARTE DE MENU*/
+
+.menu{
+    width: 100%;
+}
+.Concepto{
+    position: absolute;
+    margin-top: -42rem;
+    color: white;
+    padding: 5rem;
+}
+.Concepto h2{
+    font-size: 60px;
+    font-weight: 400;
+    margin-left: 5rem;
+}
+.Concepto p{
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    line-height: 2.5rem;
+
+}
+.Bromotologia{
+    height: 50rem;
+    width: 100%;
+    background-color: #29687C;
+}
+.ConceptoBromotologia{
+    position: absolute;
+    margin-left: 45rem;
+    margin-top: 10rem;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    font-style: normal;
+}
+.ConceptoBromotologia p{
+    margin-top: 2rem;
+    font-size: 25px;
+    line-height: 3rem;
+}
+.ConceptoBromotologia h2{
+    font-size: 60px;
+    font-weight: 200;
+}
+.Ubication1{
+    position: absolute;
+    margin-top: -40rem;
+    margin-left: 50rem;
+}
+.person{
+    border-radius: 100%;
+}
+.Dir1{
+    border-radius: 100%;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+.Dir2{
+    border-radius: 100%;
+    margin-left: 20rem;
+    margin-top: -3rem;
+}
+.fon-inferior{
+    width: 100%;
+}
+.inferior{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.inferior div{
+    margin-top: -36rem;
+    margin-left: 6rem;
+    text-align: center;
+    
+}
+.boton{
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    border: 1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 11rem;
+    padding: 1rem;
+    font-size: 20px;
+    
+}
+.inferior .text{
+    text-align: center;
+    margin-top: 2rem;
+    line-height: 1.5rem;
+}
+.inferior img{
+    border-radius: 100%;
+}
+.Piramide{
+    margin-top: -1rem;
+    height: 70rem;
+    width: 100%;
+    background-color: #2DB79C;
+    color: white;
+}
+.Piramide-text{
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top: 7rem;
+    margin-left: 2rem;
+
+}
+.Piramide-text h1{
+    font-size: 60px;
+    font-weight: 150;
+}
+.Piramide-text p{
+    margin-top: 2rem;
+    font-size: 25px;
+    font-weight: -10;
+    line-height: 2.5rem;
+}
+.Piramide-img{
+    margin-top: 32rem;
+    margin-left: 8rem;
+}
+.flecha{
+    position: absolute;
+    margin-top: -17rem;
+    margin-left: 37rem;
+}
+.flecha1{
+    position: absolute;
+    margin-top: -11.5rem;
+    margin-left: 40rem;
+}
+.flecha2{
+    position: absolute;
+    margin-top: -6rem;
+    margin-left: 42rem;
+}
+
+.Dulces{
+    position: absolute;
+    margin-top: -28rem;
+    margin-left: 40rem;
+    font-size: 30px;
+}
+.Carnes{
+    position: absolute;
+    margin-top: -22rem;
+    margin-left: 43rem;
+    font-size: 30px;
+}
+.Lacteos{
+    position: absolute;
+    margin-top: -16.5rem;
+    margin-left: 47rem;
+    font-size: 30px;
+}
+.Verduras{
+    position: absolute;
+    margin-top: -11rem;
+    margin-left: 49rem;
+    font-size: 30px;
+}
+.Hidratos{
+    position: absolute;
+    margin-top: -5rem;
+    margin-left: 51rem;
+    font-size: 30px;
+}
+
+/*/****LAS PROTEINAS****/
+.Sector{
+    height: 35rem;
+    width: 100%;
+    background-color: #29687C;
+    margin-top: -1rem;
+    color: white;
+}
+.Sector p{
+    position: absolute;
+    margin-top: 7rem;
+    font-size: 25px;
+    font-weight:unset;
+    text-align: center;
+    line-height: 2.7rem;
+    margin-left: 5rem;
+}
+.Dieta{
+    margin-top: -1rem;
+    height: 70rem;
+    width: 100%;
+    background-color: #2DB79C;
+    color: white;
+}
+.Dieta-text{
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top: 7rem;
+    margin-left: 24rem;
+
+}
+.Dieta-text h1{
+    font-size: 60px;
+    font-weight: 100;
+}
+.Tabla-1{
+    border: 6px solid #D9D9D9;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    margin-top: -45%;
+    margin-left: 20%;
+    height:300px;
+    width:50%;
+    overflow-y: auto;
+    overflow-x: scroll;
+    
+}
+.Tabla-1::-webkit-scrollbar{
+    height: 0.6rem;
+    width: 0.6rem;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+}
+.Tabla-1::-webkit-scrollbar-thumb{
+    background-color: #2DB79C;
+    border-radius: 10px;
+}
+.Tabla-1 table {
+    width:300px;
+    /*background-color:gray;*/
+}
+.tittle{
+    font-size: 64px;
+    width: 50%;
+    margin-left: 20%;
+    height: 10%;
+    position: absolute;
+    text-align: center;
+    color: #041243;
+    background-color: white;
+    margin-top: -55%;
+    font-weight: 100;
+}
+.background{
+    background-color: #458F67;
+    height: 600px;
+    width: 75%;
+    position: absolute;
+    margin-top: -50rem;
+    margin-left: 10rem;
+    border-radius: 10px;
+}
+
+.tittle2{
+    margin-left: 22%;
+    position: absolute;
+    margin-top: -60%;
+    color: white;
+    font-size: 60px;
+    font-weight: 100;
+}
+table, .Sect1{
+    padding: 5% 0% 5% 3%;
+}
+table, .Sect2{
+    padding: 5% 0% 5% 3%;
 }
