@@ -1,10 +1,23 @@
-export let piramide1 = `<div class="Integrantes">
-<div>Integrantes <br> Biologia: <br> Karen Amanda Calderas de León <br> Jaydi Dayana Orrego Perez <br> Angel Gabriel Castro</div>
-<div>Integrantes <br> Diseño Gráfico: <br> Detlef Ivan Iquique Galvez <br> Hannah Maribel Mijangos</div>
-<div>Integrantes <br> Computación: <br> Oscar Gerardo de Jesus Ordoñez Alvarez <br> Alexis Fabian Pirir Montanico</div>
+export function ProteinaDesgloce(){
+    let Despliegue = [
+        {
+            Piramide:
+            '<header>' +
+            '<img class="banner" src="./img/nutria.2 1.png" alt="">'+
+            '<a class="primer" href="">Inicio</a>' +
+            '<a class="segundo" href="">Calcular</a>' +
+            '</header>',
 
-<div>Empresa: <br> Healthy Point</div>
-<div>Paginas de referencia: <br> Nutrium <br> Pagina de inicio con Genshin Impact</div>
-</div>
 
-`;
+    }
+    ]
+
+    let Proteina = document.querySelector("#Proteina")
+
+     function Desglosar(){
+        root.innerHTML = Despliegue[0].Piramide;
+
+     }
+
+     Proteina.addEventListener("click", Desglosar)
+ }
