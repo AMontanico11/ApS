@@ -37,6 +37,17 @@ header a{
 .segundo{
     margin-left: 65rem;
 }
+.Calculo{
+    color: white;
+    margin-left: 65rem;
+    margin-top: -3rem;
+    border: 1px solid white;
+    text-align: center;
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 6px;
+    padding: 0.8rem 0.5rem 0rem 0.8rem;
+}
 .start{
     font-size: 1.5rem;
     text-decoration: none;
@@ -83,6 +94,7 @@ header a{
     margin-left: 5rem;
 }
 .Concepto p{
+    text-align: center;
     font-size: 25px;
     font-weight: 400;
     margin-top: 2rem;
@@ -340,4 +352,65 @@ table, .Sect1{
 }
 table, .Sect2{
     padding: 5% 0% 5% 3%;
+}
+/*//HOJAS DE CALCULO IMC//*/
+
+.tittle3{
+    margin-left: 31%;
+    position: absolute;
+    margin-top: 6.5%;
+    color: white;
+    font-size: 60px;
+    font-weight: 100;
+}
+.Healthy{
+    max-height: 300rem;
+    width: 100%;
+    background-size:initial;
+    
+}
+.IMC{
+    width: 2rem;
+    height: 165rem;
+}
+.IMG-IMC{
+    background-image: url(https://github.com/Gerardo072/Img-Aps-/blob/main/WhatsApp%20Image%202022-09-08%20at%206.39.55%20PM.jpeg?raw=true);
+    
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 250rem;
+    max-width: 100%;
+    background-position: center;
+    background-position: top;
+
+}
+.Cuadrante{
+    background-color: #29687C;
+    position: absolute;
+    width: 60rem;
+    height: 100rem;
+    margin-top: -143rem;
+    margin-left: 15%;
+}
+.nutria{
+    position: absolute;
+    margin-top: -180.5%;
+    margin-left: 20%;
+}
+.Resultados{
+    padding: 3% 1% 5% 0%;
+    text-align: center;
+    margin-top: -37%;
+    margin-left: 27%;
+    position: absolute;
+    font-size: 96px;
+    font-weight: 50;
+    cursor: pointer;
+}
+.Resultados{
+    border: 1px solid white;
+    height: 40%;
+    width: 45%;
+    border-radius: 70px;
+
 }
