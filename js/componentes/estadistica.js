@@ -1,10 +1,13 @@
 export function CalculoIMC(){
+
+export function ProteinaDesgloce(){
     let Despliegue = [
         {
             Piramide:
             '<header>' +
             '<img class="banner" src="./img/nutria.2 1.png" alt="">'+
             '<a class="primer" href="">Inicio</a>' +
+
             '</header>'+
 
             '<h1 class="tittle3">Agrega tus datos</h1>'+
@@ -37,17 +40,29 @@ export function CalculoIMC(){
             '<div>Paginas de referencia: <br> Nutrium <br> Pagina de inicio con Genshin Impact</div>'+
             '</div>',
 
+            '<a class="segundo" href="">Calcular</a>' +
+            '</header>',
+
+
 
 
     }
     ]
 
+
     let Calcular = document.querySelector("#Calcular")
+
+    let Proteina = document.querySelector("#Proteina")
+
 
      function Desglosar(){
         root.innerHTML = Despliegue[0].Piramide;
 
      }
 
+
      Calcular.addEventListener("click", Desglosar)
+
+     Proteina.addEventListener("click", Desglosar)
+
  }

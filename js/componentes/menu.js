@@ -1,7 +1,9 @@
 import {ProteinaDesgloce} from "./piramide.js"
+
 import {CarbohidratosDesgloce} from "./piramide.js"
 import {LípidosDesgloce} from "./piramide.js"
 import {VitaminasDesgloce} from "./piramide.js"
+
 
 
 export function empezar(){
@@ -68,9 +70,15 @@ export function empezar(){
             '</p>'+
             '</div>'+
 
+
             '<div>'+
             '<img src="https://github.com/Gerardo072/Img-Aps-/blob/main/WhatsApp%20Image%202022-09-19%20at%208.39.48%20PM.jpeg?raw=true" alt="">'+
             '<p id = "Carbohidratos" class="boton">Carbohidratos</p>'+
+
+            '<div>'+
+            '<img src="https://github.com/Gerardo072/Img-Aps-/blob/main/WhatsApp%20Image%202022-09-19%20at%208.39.48%20PM.jpeg?raw=true" alt="">'+
+            '<p class="boton">Carbohidratos</p>'+
+
             '<p class="text">'+
             'Los carbohidratos son <br>'+ 
             'los azúcares, almidones <br>'+ 
@@ -82,9 +90,15 @@ export function empezar(){
             '</p>'+
             '</div>'+
 
+
             '<div>'+
             '<img src="https://github.com/Gerardo072/Img-Aps-/blob/main/WhatsApp%20Image%202022-09-19%20at%208.40.03%20PM.jpeg?raw=true" alt="">'+
             '<p id = "Lípidos" class="boton">Lípidos</p>'+
+
+            '<div>'+
+            '<img src="https://github.com/Gerardo072/Img-Aps-/blob/main/WhatsApp%20Image%202022-09-19%20at%208.40.03%20PM.jpeg?raw=true" alt="">'+
+            '<p class="boton">Lípidos</p>'+
+
             '<p class="text">'+
             'Los lípidos son un grupo de <br> '+
             'macronutrientes que <br> '+
@@ -97,7 +111,11 @@ export function empezar(){
             '</div>'+
             '<div>'+
             '<img src="https://github.com/Gerardo072/Img-Aps-/blob/main/WhatsApp%20Image%202022-09-19%20at%208.40.27%20PM.jpeg?raw=true" alt="">'+
+
             '<p id = "Vitaminas" class="boton">Vitaminas</p>'+
+
+            '<p class="boton">Vitaminas</p>'+
+
             '<p class="text">'+
             'Las vitaminas se <br> '+
             'presentan en pequeñas <br> '+
@@ -151,9 +169,11 @@ export function empezar(){
      function InicioPagina(){
         root.innerHTML = comenzar[0].Prueba;
         ProteinaDesgloce();
+
         CarbohidratosDesgloce();
         LípidosDesgloce();
         VitaminasDesgloce();
+
      }
 
      btonempezar.addEventListener("click", InicioPagina)
