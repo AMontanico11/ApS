@@ -26,6 +26,7 @@ Poder aplicar todos nuestros conocimientos obtenidos durante estos periodos, de 
 
 🥇 Descripción de las configuraciones del proyecto
 
+Nuestro proyecto trata sobre Young Scientists que hablamos acerca de los alimentos que debemos consumir para nuestra salud y también mantener nuestro peso con cuidado y mantener nuestro cuerpo en buena forma.
 
 
  📎 Link de la página web del proyecto
